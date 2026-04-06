@@ -504,15 +504,22 @@
     </div>
 
     <div id="notification-modal" class="modal" onclick="closeNotification()">
-        <div class="modal-content notification-box" onclick="event.stopPropagation()">
-            <span class="close" onclick="closeNotification()">&times;</span>
-            <div class="notification-body">
-                <h2>¡EXCELENTE ELECCIÓN!</h2>
-                <p>Para continuar el proceso contacta a:<br><strong>Liam Cooper | Xiomara</strong></p>
-                <button class="btn-buy-centered" onclick="closeNotification()">ACEPTAR</button>
-            </div>
-        </div>
-    </div>
+<div class="notification-box">
+    <span class="close">&times;</span>
+    <h2>¡EXCELENTE ELECCIÓN!</h2>
+    
+    <p>Para continuar el proceso, contacta a algún agente inmobiliario:</p>
+    
+    <ul class="agent-list">
+        <li><strong>Liam Cooper | [Número]</strong></li>
+        <li><strong>Xiomara Morell | [Número]</strong></li>
+        <li><strong>Eduardo Simiales | [Número]</strong></li>
+    </ul>
+
+    <p class="small-notice"><strong>No te olvides de mencionar el nombre + número de la propiedad deseada.</strong></p>
+
+    <button class="btn-buy-centered">ACEPTAR</button>
+</div>
 
     <script src="script.js"></script>
 </body>
