@@ -17,7 +17,7 @@ body {
 
 /* LOGO: Tamaño controlado */
 .company-logo {
-    width: 250px; 
+    width: 500px; 
     margin: 20px 0;
     text-align: center;
 }
@@ -270,6 +270,48 @@ header h1 {
     margin-bottom: 25px;
     display: block;
 }
+
+/* --- SECCIÓN FOOTER SIMPLIFICADA --- */
+.footer-premium {
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-line {
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 auto 25px auto;
+}
+
+.brand-title {
+    color: #66ccff; /* Tu azul de Dovux ahora en el título */
+    font-size: 11px;
+    letter-spacing: 3px; /* Mantiene el estilo estirado elegante */
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.legal-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.legal-container p {
+    color: rgba(255, 255, 255, 0.6); /* Color claro para buena lectura */
+    font-size: 11px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.legal-container strong {
+    color: #ffffff; /* Resalta FiveM en blanco para que destaque sobre el gris */
+    font-weight: 500;
+}
+/* ---------------------------------------------- */
 
 /* RESPONSIVO */
 @media (max-width: 1400px) { .grid { grid-template-columns: repeat(3, 1fr); } }
